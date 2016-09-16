@@ -29,7 +29,7 @@
           <div class="row">
 
             <div class="col-sm-2">
-              <a class="post-avatar thumbnail" href="profile.html"><img src="../img/user.png"><div class="text-center">DevUser1</div></a>
+              <a class="post-avatar thumbnail" href="profile"><%= image_tag("user.png") %><div class="text-center">DevUser1</div></a>
               <div class="likes text-center">7 likes</div>
             </div><!--col 2 end -->
 
@@ -59,7 +59,7 @@
 
               <div class="comments">
                 <div class="comment">
-                  <a class="comment-avatar pull-left" href="#"><img src="../img/user.png"></a>
+                  <a class="comment-avatar pull-left" href="#"><%= image_tag("user.png") %></a>
                   <div class="comment-text">
                     <p>
                       Aliquam accumsan augue leo, eu dapibus lectus scelerisque posuere. Suspendisse ante diam, lacinia sit amet laoreet et, faucibus nec urna.
@@ -69,7 +69,7 @@
                 <div class="clearfix"></div>
 
                 <div class="comment">
-                  <a class="comment-avatar pull-left" href="#"><img src="../img/user.png"></a>
+                  <a class="comment-avatar pull-left" href="#"><%= image_tag("user.png") %></a>
                   <div class="comment-text">
                     <p>
                       Aliquam accumsan augue leo, eu dapibus lectus scelerisque posuere. Suspendisse ante diam, lacinia sit amet laoreet et, faucibus nec urna.
@@ -88,7 +88,7 @@
           <div class="row">
 
             <div class="col-sm-2">
-              <a class="post-avatar thumbnail" href="profile.html"><img src="../img/user.png"><div class="text-center">DevUser2</div></a>
+              <a class="post-avatar thumbnail" href="profile.html"><%= image_tag("user.png") %><div class="text-center">DevUser2</div></a>
               <div class="likes text-center">7 likes</div>
             </div><!--col 2 end -->
 
@@ -118,7 +118,7 @@
 
               <div class="comments">
                 <div class="comment">
-                  <a class="comment-avatar pull-left" href="#"><img src="../img/user.png"></a>
+                  <a class="comment-avatar pull-left" href="#"><%= image_tag("user.png") %></a>
                   <div class="comment-text">
                     <p>
                       Aliquam accumsan augue leo, eu dapibus lectus scelerisque posuere. Suspendisse ante diam, lacinia sit amet laoreet et, faucibus nec urna.
@@ -128,7 +128,7 @@
                 <div class="clear-fix"></div>
 
                 <div class="comment">
-                  <a class="comment-avatar pull-left" href="#"><img src="../img/user.png"></a>
+                  <a class="comment-avatar pull-left" href="#"><%= image_tag("user.png") %></a>
                   <div class="comment-text">
                     <p>
                       Aliquam accumsan augue leo, eu dapibus lectus scelerisque posuere. Suspendisse ante diam, lacinia sit amet laoreet et, faucibus nec urna.
@@ -147,7 +147,7 @@
           <div class="row">
 
             <div class="col-sm-2">
-              <a class="post-avatar thumbnail" href="profile.html"><img src="../img/user.png"><div class="text-center">DevUser3</div></a>
+              <a class="post-avatar thumbnail" href="profile.html"><%= image_tag("user.png") %><div class="text-center">DevUser3</div></a>
               <div class="likes text-center">7 likes</div>
             </div><!--col 2 end -->
 
@@ -177,7 +177,7 @@
 
               <div class="comments">
                 <div class="comment">
-                  <a class="comment-avatar pull-left" href="#"><img src="../img/user.png"></a>
+                  <a class="comment-avatar pull-left" href="#"><%= image_tag("user.png") %></a>
                   <div class="comment-text">
                     <p>
                       Aliquam accumsan augue leo, eu dapibus lectus scelerisque posuere. Suspendisse ante diam, lacinia sit amet laoreet et, faucibus nec urna.
@@ -187,7 +187,7 @@
                 <div class="clearfix"></div>
 
                 <div class="comment">
-                  <a class="comment-avatar pull-left" href="#"><img src="../img/user.png"></a>
+                  <a class="comment-avatar pull-left" href="#"><%= image_tag("user.png") %></a>
                   <div class="comment-text">
                     <p>
                       Aliquam accumsan augue leo, eu dapibus lectus scelerisque posuere. Suspendisse ante diam, lacinia sit amet laoreet et, faucibus nec urna.
@@ -204,55 +204,7 @@
 
     </div><!--column 8 end-->
     <div class="col-md-4">
-      <div class="panel panel-default friends">
-        <div class="panel-heading">
-          <h3 class="panel-title">My Friends</h3>
-        </div>
-        <div class="panel-body">
-          <ul>
-            <li><a class="thumbnail" href="profile.html"><img src="../img/user.png"></a></li>
-            <li><a class="thumbnail" href="profile.html"><img src="../img/user.png"></a></li>
-            <li><a class="thumbnail" href="profile.html"><img src="../img/user.png"></a></li>
-            <li><a class="thumbnail" href="profile.html"><img src="../img/user.png"></a></li>
-            <li><a class="thumbnail" href="profile.html"><img src="../img/user.png"></a></li>
-            <li><a class="thumbnail" href="profile.html"><img src="../img/user.png"></a></li>
-            <li><a class="thumbnail" href="profile.html"><img src="../img/user.png"></a></li>
-            <li><a class="thumbnail" href="profile.html"><img src="../img/user.png"></a></li>
-            <li><a class="thumbnail" href="profile.html"><img src="../img/user.png"></a></li>
-            <li><a class="thumbnail" href="profile.html"><img src="../img/user.png"></a></li>
-            <li><a class="thumbnail" href="profile.html"><img src="../img/user.png"></a></li>
-            <li><a class="thumbnail" href="profile.html"><img src="../img/user.png"></a></li>
-          </ul>
-          <div class="clearfix"></div>
-          <a class="btn btn-primary" href="#">View All Friends</a>
-        </div>
-      </div>
-      <div class="panel panel-default groups">
-        <div class="panel-heading">
-          <h3 class="panel-title">Latest Groups</h3>
-        </div>
-        <div class="panel-body">
-          <div class="group-item">
-            <img src="../img/group.png">
-            <h4><a href="#">Sample Group 1</a></h4>
-            <p>This is a dobble sample group</p>
-          </div>
-          <div class="clearfix"></div>
-          <div class="group-item">
-            <img src="../img/group.png">
-            <h4><a href="#">Sample Group 2</a></h4>
-            <p>This is a dobble sample group</p>
-          </div>
-          <div class="clearfix"></div>
-          <div class="group-item">
-            <img src="../img/group.png">
-            <h4><a href="#">Sample Group 3</a></h4>
-            <p>This is a dobble sample group</p>
-          </div>
-          <div class="clear-fix"></div>
-          <a class="btn btn-primary" href="#">View All Groups</a>
-        </div>
-      </div>
+      <%= render 'layouts/friendsAndGroups' %>
     </div>
   </div>
 </div>
